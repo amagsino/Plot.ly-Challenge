@@ -137,13 +137,17 @@ function optionChanged(selectedID){
       mode: "gauge+number",     
        gauge: {
        axis: { range: [0,9] },
-       bar: { color: "#e6b89c" },
+       bar: { color: "#f2e9e4" },
        steps: [
-          { range: [0, 2], color: "#f2e9e4" },
-          { range: [2, 4], color: "#c9ada7" },
-          { range: [4, 6], color: "#9a8c98" },
-          { range: [6, 8], color: "#4a4e69" },
-          { range: [8, 9], color: "#22223b" }
+          { range: [0, 1], color: "#e5d5d0" },
+          { range: [1, 2], color: "#dbc7c2" },
+          { range: [2, 3], color: "#d2b9b4" },
+          { range: [3, 4], color: "#c9ada7" },
+          { range: [4, 5], color: "#ac9899" },
+          { range: [5, 6], color: "#8a7e88" },
+          { range: [6, 7], color: "#7d7482" },
+          { range: [7, 8], color: "#706a7b" },
+          { range: [8, 9], color: "#4a4e69" }
                 
         ],
        threshold: {
